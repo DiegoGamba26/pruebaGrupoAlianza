@@ -1,0 +1,43 @@
+body {
+    background-color: #aab9cf !important;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
+.container {
+  max-width: 1000px;
+}
+
+h2 {
+  font-weight: 600;
+  color: #333;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.table {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #212529;
+  color: white;
+}
+
+.table tbody tr:hover {
+  background-color: #e9ecef;
+  transition: background-color 0.3s;
+}
+
+.btn {
+  border-radius: 0.4rem;
+}
+
+.btn i {
+  font-size: 1rem;
+}
